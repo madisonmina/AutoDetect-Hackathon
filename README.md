@@ -21,7 +21,7 @@ This semester-long experience challenges students to **design and deliver AI aut
 
 ## 🧠 What Are Innovation Labs?
 
-Innovation Labs are **MAIC’s flagship experiential AI hackathon program**, connecting students with real-world data challenges provided by industry sponsors.
+Innovation Labs are **MAIC’s flagship AI hackathon program**, connecting students with real-world data challenges provided by industry sponsors.
 
 Over the course of two months, teams collaborate on applied AI projects — developing solutions, testing them in enterprise environments, and presenting results to both Xorbix professionals and the MSOE community.
 
