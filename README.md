@@ -110,7 +110,7 @@ Teams will gain access to Databricks **after they’ve been assigned a Xorbix me
 | **Team Formation**          | Sept 25 – Oct 6 | Sign up individually or with a team.                                  |
 | **Kickoff Event**           | Oct 9 @ 6:30 PM | Meet Xorbix, discover challenges, and connect with mentors.           |
 | **Project Idea Submission** | **Due Oct 17**  | Submit your general idea using the Project Interest Form.             |
-| **Mentor Kickoff**          | Oct 10 – 17     | Schedule your first meeting with your assigned mentor.                |
+| **Xorbix Mentor Kickoff**          | Oct 10 – 17     | Schedule your first meeting with your assigned mentor.                |
 | **Development Phase**       | Mid-Oct – Nov   | Build and test your AI solution using Databricks and mentor feedback. |
 | **Final Presentations**     | Dec 6 @ 12 PM   | Present your project live at Diercks Hall or online.                  |
 
