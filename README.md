@@ -82,15 +82,7 @@ Total Prize Pool: **$6,000**
 
 After the kickoff, teams must select or propose a **general project idea** aligned with the competition’s theme by **Thursday, October 17th, 2025**.
 
-This helps Xorbix assign the **most appropriate mentor** for your team. You don’t need a complete solution yet — just a direction or domain focus.
-
-Teams can indicate their choice using the **[Project Interest Form](#)** *(link will be provided after kickoff)*.
-Examples include:
-
-* Predictive systems for manufacturing,
-* Process optimization in healthcare,
-* AI-based fraud or anomaly detection,
-* Or your own creative concept within the given domains.
+This helps Xorbix assign the **most appropriate mentor** for your team. You don’t need a complete solution yet — just a selected project from one of the ones provided.
 
 ---
 
