@@ -72,30 +72,40 @@ Total Prize Pool: **$6,000**
 
 ## 🧩 How It Works
 
-### **Team Structure**
+### **Team Formation**
 
-* Teams of up to 12 students — diverse in background and expertise.
-* Xorbix assigns mentors to every team for direct technical and strategic support.
-* Teams choose from multiple AI problem statements across domains.
+* Teams of up to 12 students, mixing skills and backgrounds.
+* Every team will be paired with a **dedicated Xorbix mentor** based on their project interest.
+* Mentorship includes feedback sessions, code reviews, and strategic direction.
 
-### **Mentorship**
+### **Project Idea Selection (Due October 17th)**
 
-* Continuous access to Xorbix engineers for Q&A, debugging, and brainstorming.
-* Biweekly mentor check-ins from October through December.
-* Guidance focused on practicality, reliability, and innovation.
+After the kickoff, teams must select or propose a **general project idea** aligned with the competition’s theme by **Thursday, October 17th, 2025**.
+
+This helps Xorbix assign the **most appropriate mentor** for your team. You don’t need a complete solution yet — just a direction or domain focus.
+
+Teams can indicate their choice using the **[Project Interest Form](#)** *(link will be provided after kickoff)*.
+Examples include:
+
+* Predictive systems for manufacturing,
+* Process optimization in healthcare,
+* AI-based fraud or anomaly detection,
+* Or your own creative concept within the given domains.
 
 ---
 
 ## ☁️ Databricks Integration
 
-All Innovation Lab projects will be deployed and scaled using **Databricks**, a unified analytics and machine learning platform trusted by enterprise organizations.
+All Innovation Lab projects will be built and scaled on **Databricks**, the industry-standard platform for collaborative data science and machine learning.
 
-Participants will receive **Databricks credits** from Xorbix to enable experimentation without infrastructure costs. A detailed setup guide will walk you through how to:
+Teams will gain access to Databricks **after they’ve been assigned a Xorbix mentor**. Each mentor will help configure the team’s workspace and ensure smooth onboarding.
 
-* Launch your **Databricks workspace**.
-* Connect datasets securely and efficiently.
-* Run notebooks, manage models, and visualize outputs.
-* Collaborate with teammates in real time.
+### **Databricks Access Includes:**
+
+* **Compute credits** provided by Xorbix
+* Shared team workspace for notebooks, data, and experiments
+* Cloud-based model training and evaluation tools
+* Real-time dashboards for visualization and performance tracking
 
 > Databricks empowers teams to move from prototype to production seamlessly — giving participants the same platform used by global AI practitioners.
 
@@ -103,13 +113,14 @@ Participants will receive **Databricks credits** from Xorbix to enable experimen
 
 ## 📅 Timeline
 
-| Phase                   | Date            | Description                                                                         |
-| ----------------------- | --------------- | ----------------------------------------------------------------------------------- |
-| **Team Formation**      | Sept 25 – Oct 6 | Form groups with peers and sign up before the deadline.                             |
-| **Kickoff Event**       | Oct 9 @ 6:30 PM | Hear from Xorbix leadership, explore challenges, meet mentors, and enjoy free food. |
-| **Mentor Kickoff**      | Oct 10 – 17     | 1-on-1 mentor introductions to start your project.                                  |
-| **Development Phase**   | Mid-Oct – Nov   | Build your AI solution with ongoing mentor feedback and Databricks access.          |
-| **Final Presentations** | Dec 6 @ 12 PM   | Present your work live at Diercks Hall and compete for prizes.                      |
+| Phase                       | Date            | Description                                                           |
+| --------------------------- | --------------- | --------------------------------------------------------------------- |
+| **Team Formation**          | Sept 25 – Oct 6 | Sign up individually or with a team.                                  |
+| **Kickoff Event**           | Oct 9 @ 6:30 PM | Meet Xorbix, discover challenges, and connect with mentors.           |
+| **Project Idea Submission** | **Due Oct 17**  | Submit your general idea using the Project Interest Form.             |
+| **Mentor Kickoff**          | Oct 10 – 17     | Schedule your first meeting with your assigned mentor.                |
+| **Development Phase**       | Mid-Oct – Nov   | Build and test your AI solution using Databricks and mentor feedback. |
+| **Final Presentations**     | Dec 6 @ 12 PM   | Present your project live at Diercks Hall or online.                  |
 
 ---
 
