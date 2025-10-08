@@ -80,7 +80,7 @@ Total Prize Pool: **$6,000**
 
 ### **Project Idea Selection (Due October 17th)**
 
-After the kickoff, teams must select or propose a **general project idea** aligned with the competition’s theme by **Thursday, October 17th, 2025**.
+After the kickoff, teams must select a **project** by **Thursday, October 17th, 2025**.
 
 This helps Xorbix assign the **most appropriate mentor** for your team. You don’t need a complete solution yet — just a selected project from one of the ones provided.
 
