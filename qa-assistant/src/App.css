@@ -1,0 +1,142 @@
+:root {
+  --bg: #270c44; /* darkest */
+  --bg-2: #361c5e;
+  --accent: #8b276a;
+  --accent-2: #ebbe61;
+  /* Make primary text pure white for maximum contrast on dark backgrounds */
+  --text: #ffffff;
+  /* stronger muted color for readability */
+  --muted: rgba(255,255,255,0.88);
+  /* slightly stronger card background for separation from page bg */
+  --card-bg: rgba(255,255,255,0.06);
+  --card-border: rgba(255,255,255,0.06);
+  /* nav active text: dark on dark-theme (contrasts with accent highlight)
+     and will be overridden for light theme below */
+  --nav-active-text: #ffffff;
+}
+
+/* light theme overrides */
+[data-theme="light"] {
+  --bg: #f6f2f8;
+  --bg-2: #efe9f3;
+  --accent: #8b276a;
+  --accent-2: #ebbe61;
+  --text: #1b1220;
+  --muted: rgba(27,18,32,0.8);
+  --card-bg: rgba(27,18,32,0.04);
+  --card-border: rgba(27,18,32,0.06);
+  /* in light theme, nav active text should be the primary text color (dark) */
+  --nav-active-text: var(--text);
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation */
+.qa-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255,246,255,0.04);
+  backdrop-filter: blur(6px);
+}
+
+.qa-logo {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: var(--accent-2);
+  cursor: pointer;
+  font-size: 1.05rem;
+}
+
+.qa-nav-center {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.qa-nav-btn {
+  background: transparent;
+  color: var(--muted);
+  border: none;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  transition: background 160ms ease, color 160ms ease, transform 120ms ease;
+}
+
+.qa-nav-btn:hover {
+  color: var(--text);
+  background: rgba(255,255,255,0.06);
+  transform: translateY(-1px);
+}
+
+.qa-nav-btn.active {
+  /* subtle gradient highlight kept but low-opacity so it's not heavy */
+  color: var(--nav-active-text);
+  background: linear-gradient(90deg, rgba(235,190,97,0.18), rgba(139,39,106,0.14));
+  box-shadow: 0 6px 18px rgba(0,0,0,0.24);
+  transform: none;
+  font-weight: 800;
+  border: 1px solid rgba(255,255,255,0.04);
+}
+
+
+
+.qa-toggle {
+  background: var(--accent);
+  color: var(--bg);
+  padding: 0.45rem 0.85rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.08);
+  font-weight: 700;
+}
+
+.app-main {
+  padding: 1.25rem;
+  flex: 1 1 auto;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.page h1 { margin: 0 0 0.5rem 0; font-size: 1.65rem; color: var(--accent-2); }
+.page p { color: var(--muted); margin-top: 0; line-height: 1.5; font-size: 1rem; }
+
+.card-row { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+.card { background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)); border-radius: 12px; padding: 1rem; min-width: 160px; box-shadow: 0 10px 30px rgba(0,0,0,0.36); border: 1px solid var(--card-border); }
+
+.defect-list { margin-top: 1rem; padding-left: 1.15rem; color: var(--muted); }
+.defect-list li { margin: 0.4rem 0; }
+
+/* small screens */
+@media (max-width: 640px) {
+  .qa-nav { flex-direction: column; align-items: stretch; gap: 0.6rem; }
+  .qa-nav-center { justify-content: space-around; }
+  .card-row { flex-direction: column; }
+}
+
